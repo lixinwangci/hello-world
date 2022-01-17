@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T05:46:20.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Q2Tt4w1QB9a2kjJL6l5c" version="16.2.7" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-17T07:15:41.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="uXCGCQlQFXPXsSMsEnZV" version="16.2.7" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="cloudtalk" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="70" width="80" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="40" y="70" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-11" value="客人" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="-120" width="90" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eNRb1P2RX8teRnW-7kQ5-11">
+          <mxGeometry x="45" y="80" width="10" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-5" value="客人发消息到cloudtalk" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;entryX=0;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eNRb1P2RX8teRnW-7kQ5-11" target="3nuBFxr9cyL0pnOWT2aG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="130" as="sourcePoint" />
+            <mxPoint x="155" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="客人在连接cloudtalk的时候&#xa;发送login事件时，把c,p,v,bizid&#xa;传给后端" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="acdm" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="70" width="90" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-23" value="请求acd做人工分配&#xa;人工分配的时候，&#xa;把相应参数带给acd&#xa;根据渠道和v参数并根据&#xa;配置的crm的vip规则进行分配和排队" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="eNRb1P2RX8teRnW-7kQ5-16">
+          <mxGeometry x="0.0746" y="-20" relative="1" as="geometry">
+            <mxPoint x="55" y="130" as="sourcePoint" />
+            <mxPoint x="222.70000000000005" y="130.9000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-15" value="判断客人消息走acdm&#xa;acdm做分配处理，不论&#xa;分配机器人还是人工，&#xa;都把这些参数存入到会话详情" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;entryX=0.53;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="0.0746" y="-20" relative="1" as="geometry">
+            <mxPoint x="190" y="200" as="sourcePoint" />
+            <mxPoint x="295.76" y="200.80000000000007" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-16" value="acd" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="90" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-17" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eNRb1P2RX8teRnW-7kQ5-16">
+          <mxGeometry x="45" y="80" width="10" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-34" value="分配规则部分，查询相应&#xa;客服组的分配规则，然后&#xa;通过分配规则相应的算法，&#xa;并判断坐席客服组最大服务数&#xa;进行分配到指定坐席" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;entryX=1.162;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eNRb1P2RX8teRnW-7kQ5-16" target="eNRb1P2RX8teRnW-7kQ5-17">
+          <mxGeometry x="0.0484" y="-20" relative="1" as="geometry">
+            <mxPoint x="55" y="190" as="sourcePoint" />
+            <mxPoint x="160" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="130" y="190" />
+              <mxPoint x="130" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-40" value="客服服务结束关闭会话&#xa;对客服客服组服务数进行减1" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;exitX=0.059;exitY=0.792;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="eNRb1P2RX8teRnW-7kQ5-16" source="eNRb1P2RX8teRnW-7kQ5-31">
+          <mxGeometry x="-0.0476" relative="1" as="geometry">
+            <mxPoint x="171.25999999999976" y="460.4000000000001" as="sourcePoint" />
+            <mxPoint x="55.00000000000023" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-30" value="客服端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="70" width="90" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eNRb1P2RX8teRnW-7kQ5-30">
+          <mxGeometry x="45" y="80" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-37" value="进线到客服端" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;entryX=0.507;entryY=0.894;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eNRb1P2RX8teRnW-7kQ5-30">
+          <mxGeometry x="-0.0476" relative="1" as="geometry">
+            <mxPoint x="-65.62999999999977" y="400" as="sourcePoint" />
+            <mxPoint x="45.000000000000114" y="400.6400000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-36" value="找到指定坐席后，分配，&#xa;并对坐席服务数&#xa;进行加1" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;exitX=0.886;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eNRb1P2RX8teRnW-7kQ5-17">
+          <mxGeometry x="0.0484" y="-20" relative="1" as="geometry">
+            <mxPoint x="540.0000000000002" y="370" as="sourcePoint" />
+            <mxPoint x="534" y="441" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="615" y="370" />
+              <mxPoint x="615" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="后端处理存储参数" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="160" as="sourcePoint" />
+            <mxPoint x="190" y="181" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="160" />
+              <mxPoint x="230" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-41" value="acdjob" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="70" width="90" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-42" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="eNRb1P2RX8teRnW-7kQ5-41">
+          <mxGeometry x="45" y="80" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-44" value="或者长时间客人未会话&#xa;自动关闭会话&#xa;对客服客服组服务数减1" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;exitX=0.484;exitY=0.904;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eNRb1P2RX8teRnW-7kQ5-41" target="eNRb1P2RX8teRnW-7kQ5-17">
+          <mxGeometry x="-0.5413" y="-6" relative="1" as="geometry">
+            <mxPoint x="664.3700000000003" y="560" as="sourcePoint" />
+            <mxPoint x="540" y="576" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
