@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T07:15:41.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="uXCGCQlQFXPXsSMsEnZV" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T05:58:10.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="xDo395LNtlDCPXyq7ZkY" version="16.2.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,6 +28,13 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="客人在连接cloudtalk的时候&#xa;发送login事件时，把c,p,v,bizid&#xa;传给后端" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-60" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNRb1P2RX8teRnW-7kQ5-45" value="返回用户信息" style="verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;entryX=1.5;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.2;exitY=0.078;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" source="3nuBFxr9cyL0pnOWT2aG-2" target="eNRb1P2RX8teRnW-7kQ5-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="180" as="sourcePoint" />
+            <mxPoint x="50" y="180.96000000000004" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="acdm" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
